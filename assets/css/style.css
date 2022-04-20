@@ -78,3 +78,23 @@ list-style-type: none;
     width: 100%;
     overflow: hidden;
 }
+
+
+.content{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    
+}
+h1{
+    color: green;
+    margin: 20px;
+    font-size: 40px;
+}
+h3{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+}
