@@ -17,15 +17,16 @@ body{
 h1, h2{
 font-family: Oswald, sans-serif;
 text-transform: uppercase;
-letter-spacing: 1px;
+letter-spacing: 4px;
 color: black;
 
 }
 
 #logo{
     color: black;
-    font-size: 35px;
-    font-size: 400%;
+    float: left;
+
+    font-size: 380%;
 }
 
 
@@ -33,14 +34,15 @@ color: black;
 
 #menu{
 font-size: 110%;
-letter-spacing: 1px;
+letter-spacing: 4px;
 }
 
 #menu li{
 float: right;
 margin-right: 30px;
-display: inline-block;
-padding: 10px 25px;
+list-style-type: none;
+
+
 
 }
 
@@ -48,4 +50,31 @@ padding: 10px 25px;
 #menu a{
     text-decoration: none;
     color: inherit;
+}
+
+#menu a :hover{
+    border-bottom: 1px solid red;
+}
+
+.active{
+    border-bottom: 1px solid red;
+}
+
+
+/*hero image*/
+
+
+#hero-image{
+    height: 50vh;
+    width:100%;
+    background:url('../css/images/Swim.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#hero-outer{
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
 }
